@@ -1,0 +1,143 @@
+/* 
+
+main color in this page is
+1)  #2C3A47
+2)  #55E6C1
+
+*/
+
+.bg-light{
+    background-color: #2C3A47 !important ;
+}
+.navbar-light .navbar-brand {
+    color: rgba(250, 248, 248, 0.9) !important;
+    font-size: 28px;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+navbar-light .navbar-nav .active>.nav-link,
+ .navbar-light .navbar-nav .nav-link.active,
+ .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show>.nav-link {
+    color:#55E6C1;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #55E6C1;
+}
+.main{
+    background-color: #55E6C1;
+    min-height: 550px;
+    margin-top:70px;
+}
+.main img{
+    padding-top:30px;
+    width:250px;
+}
+.main h2{
+    padding-top:30px;
+    font-size: 50px;
+    color:#fff;
+}
+.main p{
+    padding-top:30px;
+    color:#2C3A47;
+    font-size: 25px;
+}
+.portofolio h1{
+    padding-top:30px;
+    color: #2C3A47;
+}
+.cardstyle{
+    padding-top:50px;
+    padding-bottom:50px;
+}.card{
+    border-radius: 30px;
+    overflow: hidden;
+    
+}
+.about{
+    background-color: #55E6C1;
+}
+.about h1{
+    padding-top:30px;
+    padding-bottom:30px;
+    color:#fff;
+    font-weight: 700;
+    font-size: 50px;
+}
+.about .info{
+    padding:50px;
+    color:#fff;
+    margin-bottom:30px;
+    border-radius: 30px;
+
+}
+.about .info:hover{
+    
+    background-color:#fff;
+    color:#55E6C1
+
+}
+.about .info p{
+    direction: ltr;
+    font-size: 20px;
+
+}
+.contact{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.control-label{
+    color:#2C3A47;
+    font-size:23px;
+}
+.contact .btn-primary{
+    color:#fff;
+    background-color: #2C3A47;
+    padding: 8px 36px;
+    font-size: 20px;
+}
+.discribe{
+    background-color: #2C3A47;
+    padding-top:70px;
+    min-height: 300px;
+}
+.discribe .disc{
+    margin-bottom: 40px;
+}
+.discribe .disc h3{
+    color:#fff;
+}
+.discribe .disc p{
+    font-size:23px;
+    color:#fff;
+}
+.discribe .disc .social{
+    margin-top:20px;
+    padding-top:10px;
+    display: inline-block;
+    margin-left:10px;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    color:#fff;
+    border: 2px solid #fff;
+}
+.discribe .disc .social:hover{
+    background-color: #55E6C1;
+    color:#2C3A47;
+
+}
+footer{
+    height:50px;
+    color:#fff;
+    font-size: 15px;
+    padding-top:10px;
+    background-color: #26323e;
+}
+
+

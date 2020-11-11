@@ -1,0 +1,189 @@
+body{
+	
+}
+
+.star{
+	position: absolute;
+	right:25px;
+	top:6px;
+	color:#f53b57;
+	font-size:20px;
+}
+/*start login form*/
+
+.login-box{
+	width:400px;
+	margin:100px auto;
+	border:2px solid #f53b57;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	background-color: #fff;
+}
+
+.login{
+	width:300px;
+	margin:50px;
+}
+.login h4{
+   color:#f53b57;
+   font-size:30px;
+}
+
+.login input{
+	margin-bottom:25px;
+}
+.login .btn{
+	background-color:#f53b57;
+	border-color: #f53b57
+}
+
+/*end login form*/
+
+
+/* start boot strap edit */
+.bg-light {
+    background-color: #384452 !important;
+}
+a.navbar-brand .fa-2x{
+    font-size: 30px;
+    margin-right: 10px;
+    color:#fff;
+}
+.navbar-light .navbar-brand span{
+	font-size: 25px;
+    color: #f53b57;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link{
+	font-size:20px;
+	 color: #f53b57;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	font-size:20px;
+	 color: #fff;
+	 
+}
+.navbar-light .navbar-nav .dropdown{
+	border-radius:20px;
+}
+.navbar-light .navbar-nav  .dropdown .nav-link{
+	background-color: #f53b57;
+	color:#fff;
+	border-radius: 25px;
+    padding: 9px;
+    box-shadow: o -3px 13px;
+}
+.navbar-nav .dropdown-menu{
+	background-color: #f53b57;
+	    margin: 7px;
+	    left:-80px;
+	    min-width: 15rem;
+	      box-shadow: 0 -1px 7px;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item{
+	color:#fff;
+	font-size:20px;
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover{
+	background-color: #384452;
+	color: #f53b57;
+}
+.form-control{
+  	position: relative;
+}
+a:not([href]){
+	color:white;
+}
+a:not([href]):hover{
+	color:white;
+}  
+/* end boot strap edit */
+
+/*start home page style*/
+.latest{
+	margin-top:30px;
+}
+.home-stats .stat{
+	padding:20px;
+	font-size:20px;
+	color:#fff;
+	border-radius:7px;
+}
+.home-stats .stat span{
+	display:block;
+	font-size:60px;
+}
+.home-stats .st-member{
+	background-color: #4b7bec;
+}
+.home-stats .stat a{
+	color:#fff;
+}
+.home-stats .stat a:hover{
+	text-decoration: none;
+}
+.home-stats .st-pending{
+	background-color: #fed330;
+}
+.home-stats .st-items{
+	background-color: #fc5c65;
+}
+.home-stats .st-comments{
+	background-color: #26de81;
+}
+.latest-user{
+	margin-bottom: 0px;
+}
+.latest-user li {
+	padding:2px 0px;
+	overflow: hidden;
+	font-size:20px;
+
+}
+.latest-user .btn {
+	padding:3px 8px;
+
+}
+.latest-user span a{
+	text-decoration: none;
+	color:#fff;
+	font-size:18px;
+}
+
+
+/* end home page style */
+
+/*start member in back end page */
+
+h1{
+	font-size:35px;
+	color:#f53b57;
+	font-weight: bold;
+	padding:30px 0px ;
+}
+.edit_label{
+	font-size:20px;
+	color: #f53b57
+}
+.show-pass{
+	position: absolute;
+	top: 10px;
+    right: -16px;
+    font-size: 20px;
+}
+.main-table tr:first-child td{
+	background-color: #384452;
+	color:#f53b57;
+	font-size:20px;
+}
+.fa-times {
+    padding-right: 5px;
+}
+.fa-edit{
+	padding-right:5px;
+}
+/* end member in bake end page */
+
+
+ 
